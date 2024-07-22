@@ -7,5 +7,5 @@ A script that allows you to check the length of a commit and its validation agai
 
 ## Installation
 ```
-curl  -o </path_to_your_git_project/.git/hooks/commit-msg>
+curl https://github.com/tsiewruk/commiter/blob/main/commit-msg -o </path_to_your_git_project/.git/hooks/commit-msg>
 ```
