@@ -93,7 +93,7 @@ func printResult(commitMessage, status string) {
 
 	fmt.Println(strings.Repeat(" ", padding) + "Commit Message:")
 	fmt.Println(strings.Repeat("-", totalLength))
-	fmt.Println(commitMessage)
+	fmt.Println(commitMessage + "\n")
 	fmt.Println(strings.Repeat("-", totalLength))
 	fmt.Println(headerLine)
 	fmt.Println(strings.Repeat("-", totalLength))
